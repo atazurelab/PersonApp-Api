@@ -1,66 +1,6 @@
 [
   {
-    "FirstName": "Anju",
-    "LastName": "Tiwari"
-  },
-  {
     "FirstName": "Ajay",
-    "LastName": "Kumar"
-  },
-  {
-    "FirstName": "arushi",
     "LastName": "Tiwari"
-  },
-  {
-    "FirstName": "arushi",
-    "LastName": "Tiwari"
-  },
-  {
-    "FirstName": "Some",
-    "LastName": "Kumar"
-  },
-  {
-    "FirstName": "Ajit",
-    "LastName": "Powar"
-  },
-  {
-    "FirstName": "Another",
-    "LastName": "Person"
-  },
-  {
-    "FirstName": "\\\\<ajay",
-    "LastName": "tiwari"
-  },
-  {
-    "FirstName": "{ajay:tiwari}",
-    "LastName": "test"
-  },
-  {
-    "FirstName": "{ajay",
-    "LastName": "tiwari"
-  },
-  {
-    "FirstName": "ss",
-    "LastName": "ss"
-  },
-  {
-    "FirstName": "a",
-    "LastName": "s"
-  },
-  {
-    "FirstName": "s",
-    "LastName": "s"
-  },
-  {
-    "FirstName": "a",
-    "LastName": "s"
-  },
-  {
-    "FirstName": "s",
-    "LastName": "d"
-  },
-  {
-    "FirstName": "Some",
-    "LastName": "Kumar"
   }
 ]
