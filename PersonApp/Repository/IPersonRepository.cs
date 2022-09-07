@@ -9,6 +9,7 @@ namespace PersonApp.Repository
         Task<bool> Save(Person person);
 
         Task<IEnumerable<Person>> GetAll();
+         
     }
 
 }
