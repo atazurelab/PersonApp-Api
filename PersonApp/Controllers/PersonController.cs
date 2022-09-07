@@ -1,17 +1,13 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using PersonApp.DTO;
 using PersonApp.Model;
 using PersonApp.Services;
-using PersonApp.DTO;
-using System;
 using System.Collections.Generic;
-using System.ComponentModel.Design;
-using System.Diagnostics;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
 using System.Linq;
-using System.Threading;
+using System.Threading.Tasks;
 
 namespace PersonApp.Controllers
 {

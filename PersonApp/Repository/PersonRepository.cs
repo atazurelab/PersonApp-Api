@@ -1,22 +1,17 @@
-﻿using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Routing.Constraints;
-using Microsoft.Extensions.Configuration;
+﻿using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
 using PersonApp.Model;
 using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Reflection.Metadata.Ecma335;
-using System.Threading;
 using System.Threading.Tasks;
-using System.Xml.Linq;
 
 namespace PersonApp.Repository
 {
     public class PersonRepository : IPersonRepository
     {
-        private readonly IWebHostEnvironment _env;
+     
         private readonly ILogger<PersonRepository> _logger;
         private readonly IConfiguration _configuration;
         private readonly object _fileAccess = new object();
@@ -24,9 +19,8 @@ namespace PersonApp.Repository
 
         private string JsonFilePath => "JsonFilePath"; 
 
-        public PersonRepository(IWebHostEnvironment env, ILogger<PersonRepository> logger, IConfiguration configuration)
-        {
-            _env = env;
+        public PersonRepository( ILogger<PersonRepository> logger, IConfiguration configuration)
+        {         
             _logger = logger;
             _configuration = configuration;
         }
